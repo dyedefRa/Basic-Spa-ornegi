@@ -1,0 +1,173 @@
+body{
+    /* padding: 0;
+    margin: 0; */
+    background: #ddd;
+}
+
+#genel{
+    width: 990px;
+    margin: auto;
+}
+.ust{
+    width: 100%;
+    height: 100px;
+    background: #eee;
+    border-radius: 45px;
+
+}
+.ust .logo{
+    width: 90px;
+    height: 90px;
+   margin-top:6px;
+   margin-left: 5px;
+   float: left;
+   z-index: 2;
+   position: relative;
+  
+}
+.ust .logo-sag{
+    width: 90px;
+    height: 90px;
+   margin-top:6px;
+   margin-right: 5px;
+   float: right;
+ 
+   
+   
+}
+.ust .logo-yani{
+   
+    height: 100%;
+    width: 50%;
+   
+    border-radius: 45px 0 0 45px;
+    background-color: palevioletred;
+    float: left;
+    position: relative;
+    right: 95px;
+    z-index: 1;
+   
+   
+  
+    
+   
+}
+.menu{
+    width: 100%;
+    height: 50px;
+   
+    margin-top: 20px;
+    border-radius: 15px;
+  
+}
+
+ .menu li{
+     list-style-type: none;
+
+     float: left;
+    
+     padding: 12px;
+     margin-left: 8px;
+    background-color: #1798af;
+    border-radius: 10px;
+    margin-top:5px;
+    transition: .3s linear;
+
+   
+ }
+ .menu li:hover{
+background-color: #ddd;
+color:black ;
+ }
+a{
+     text-decoration: none;
+     font-weight: bold;
+    
+ }
+
+
+.icerik{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+   
+}
+ .icerik .icerik-sol{
+    min-height: 400px;
+    width: 70%;
+    background-color: #eee;
+    float: left;
+    border-radius: 20px;
+   
+  padding: 20px;
+ }
+ .icerik-sol .content{
+     width: 90%;
+     background-color: white;
+     margin: 5px auto;
+     min-height: 200px;
+     border-radius: 10px;
+     box-shadow: 2px 2px  40px;
+     padding: 20px;
+     max-height: 300px;
+     overflow: auto;
+     background-color: #eee;
+     margin-bottom:30px;
+     
+ }
+
+ .content img{
+    
+     width: 40%;
+     float: left;
+     margin-right: 20px;
+     
+ }
+ .content h2{
+   margin-top:0px;
+ 
+     
+ }
+ .icerik .icerik-sag{
+    min-height: 250px;
+    width: 25%;
+    text-align: center;
+   background-color: #ddd;
+    float: right;
+}
+ .icerik-sag li{
+    
+   list-style-type: none;
+   background-color: dimgray;
+   padding: 5px 10px;
+   margin-right: 27px;
+   margin-bottom: 3px;
+   transition: .3s linear;
+   
+   
+
+
+ }
+ .icerik-sag li:hover{
+background-color: #ddd;
+
+ }
+ .icerik-sag h2{
+    background-color: #ddd;
+    color:dimgray;
+  
+  
+ }
+ .icerik-sag img{
+     margin-bottom: 20px;
+ }
+
+.alt{
+    width: 100%;
+    height: 50px;
+    background-color: #ddd;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
